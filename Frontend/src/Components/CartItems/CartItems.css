@@ -1,0 +1,243 @@
+.cartitem {
+    margin: 100px 170px;
+}
+
+.cartitem hr {
+    height: 3px;
+    background: #e2e2e2;
+    border: 0;
+}
+
+.cartitem-format-main {
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    gap: 75px;
+    padding: 20px 0px;
+    color: #454545;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.cartitem-format {
+    font-size: 17px;
+    font-weight: 500;
+
+}
+
+.cartitem-product-icon {
+    height: 82px;
+}
+
+.cartitem-remove-icon {
+    width: 15px;
+    margin: 0px 40px;
+    cursor: pointer;
+}
+
+.cartitem-quantity {
+    width: 64px;
+    height: 50px;
+    border: 2px solid #ebebeb;
+    background: #fff;
+}
+
+.cartitem-down {
+    display: flex;
+    margin: 100px 0px;
+}
+
+.cartitem-total {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-right: 200px;
+    gap: 40px;
+}
+
+.cartitem-total-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.checkout-btn {
+    width: 262px;
+    height: 58px;
+    outline: none;
+    border: none;
+    background: #ff5a5a;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: "Zalando Sans", sans-serif;
+}
+
+.cartitem-promocode {
+    flex: 1;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.cartitem-promocode p {
+    color: #555;
+}
+
+.cartitem-promobox {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+    padding: 2px;
+    padding-left: 20px;
+    height: 58px;
+    background: #eaeaea;
+}
+
+.cartitem-promobox input {
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 16px;
+    /* width: 330px; */
+    height: 50px;
+}
+
+.cartitem-promobox .submit-btn {
+    width: 170px;
+    height: 58px;
+    font-size: 16px;
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+
+.empty-cart{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.empty-cart p{
+    margin-bottom: 20px;
+}
+
+.empty-cart button{
+    background-color: blue;
+    color: white;
+    padding: 20px 30px;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width:1340px) {
+    .cartitem-down {
+        flex-direction: column;
+        margin: 10px;
+    }
+
+    .cartitem-promocode {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .cartitem-total {
+        margin: 0px;
+    }
+
+    .checkout-btn {
+        margin: auto;
+        width: auto;
+        padding: 10px;
+        border-radius: 5px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .cartitem-promobox {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:1050px) {
+    .cartitem-format-main {
+        gap: 10px;
+    }
+
+    .cartitem-product-icon {
+        height: 76px;
+    }
+
+    .cartitem-promobox {
+        width: 80%;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .cartitem-pomobox input {
+        width: 100%;
+    }
+
+    .submit-btn {
+        width: 136px;
+        padding: 10px;
+        border-radius: 16px;
+    }
+}
+
+@media screen and (max-width:850px) {
+    .cartitem {
+        margin: 100px 50px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .cartitem {
+        margin: 100px 10px;
+    }
+    .empty-cart button{
+        padding: 13px 7px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .cartitem {
+        margin: 100px 10px;
+    }
+
+    .cartitem-promobox .submit-btn {
+        width: 145px;
+        height: 43px;
+        font-size: 16px;
+    }
+
+    .cartitem-promocode {
+        margin: 10px;
+    }
+
+    .cartitem-promobox input {
+        font-size: 13px;
+    }
+
+    .cartitem-format-main {
+        gap: 3px;
+    }
+
+    .cartitem-product-icon {
+        height: 63px;
+    }
+
+    .cartitem-format p {
+        font-size: 10px;
+    }
+}

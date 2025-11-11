@@ -1,0 +1,40 @@
+.new-collection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 100px;
+}
+
+.collection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.new-collection h1 {
+    color: #171717;
+    font-size: 50px;
+    font-weight: 600;
+     font-family: "Zalando Sans", sans-serif;
+}
+
+.new-collection hr {
+    width: 200px;
+    height: 6px;
+    border-radius: 10px;
+    background: #252525;
+}
+
+@media screen and (max-width:1000px) {
+    .new-collection h1 {
+        font-size: 23px;
+    }
+
+    .new-collection hr {
+        width: 155px;
+        height: 1px;
+    }
+}

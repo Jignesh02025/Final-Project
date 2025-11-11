@@ -1,0 +1,22 @@
+.beadcrump{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #5e5e5e;
+    font-style: 16px;
+    font-weight: 600;
+    margin: 60px 170px;
+    text-transform: capitalize;
+}
+
+@media screen and (max-width:800px) {
+    .beadcrump {
+        margin: 40px 20px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .beadcrump {
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,125 @@
+.newsletter {
+    width: auto;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 0px 140px;
+    margin-bottom: 150px;
+    background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
+    gap: 30px;
+}
+
+.newsletter h1 {
+    color: #454545;
+    font-size: 55px;
+    font-weight: 600;
+}
+
+.newsletter div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    width: 730px;
+    height: 70px;
+    border-radius: 80px;
+    border: 1px solid #e3e3e3;
+}
+
+.newsletter input {
+    width: 500px;
+    margin-left: 30px;
+    border: none;
+    outline: none;
+    color: #616161;
+    font-size: 16px;
+}
+
+.newsletter div button {
+    width: 210px;
+    height: 70px;
+    border-radius: 80px;
+    background: black;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:1200px) {
+    .newsletter h1 {
+        font-size: 39px;
+    }
+}
+
+
+@media screen and (max-width:900px) {
+    .newsletter h1 {
+        font-size: 29px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .newsletter div button {
+        width: 163px;
+        height: 49px;
+    }
+
+    .newsletter div {
+        width: auto;
+        margin: 0px 20px;
+    }
+
+    .newsletter input {
+        width: 445px;
+    }
+}
+
+@media screen and (max-width:720px) {
+    .newsletter h1 {
+        font-size: 21px;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .newsletter h1 {
+        font-size: 15px;
+    }
+
+    .newsletter p {
+        font-size: 12px;
+    }
+
+    .newsletter input {
+        width: 351px;
+    }
+
+    .newsletter div {
+        height: 50px;
+    }
+
+    .newsletter div button {
+        width: 115px;
+        height: 37px;
+    }
+}
+
+@media screen and (max-width:490px) {
+    .newsletter{
+        margin-bottom: 5px;
+    }
+    .newsletter input {
+        width: 229px;
+    }
+
+    .newsletter h1 {
+        text-wrap: nowrap;
+    }
+    
+    .newsletter p {
+        font-size: 10px;
+        text-wrap: nowrap;
+    }
+}
