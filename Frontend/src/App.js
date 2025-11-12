@@ -11,11 +11,11 @@ import men_banner from './Components/Assets/banner_mens.png'
 import women_banner from './Components/Assets/banner_women.png'
 import kid_banner from './Components/Assets/banner_kids.png'
 import Login from './Pages/Login';
-import toast, { Toaster } from 'react-hot-toast';
-import Authuser, { useAuth } from './Context/Authuser';
+// import toast, { Toaster } from 'react-hot-toast';
+// import Authuser, { useAuth } from './Context/Authuser';
 
 function App() {
-  const [user,setUser] = useAuth()
+  // const [user,setUser] = useAuth()
   return (
     <div>
       <BrowserRouter>
