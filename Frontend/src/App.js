@@ -11,13 +11,8 @@ import men_banner from './Components/Assets/banner_mens.png'
 import women_banner from './Components/Assets/banner_women.png'
 import kid_banner from './Components/Assets/banner_kids.png'
 import Login from './Pages/Login';
-<<<<<<< HEAD
-import { Toaster } from 'react-hot-toast';
-import  { useAuth } from './Context/Authuser';
-=======
 import  { Toaster } from 'react-hot-toast';
 import { useAuth } from './Context/Authuser';
->>>>>>> c9a1190024a0ee7f1d58ae2b60132cbc790b2d59
 
 function App() {
   const [user] = useAuth()
