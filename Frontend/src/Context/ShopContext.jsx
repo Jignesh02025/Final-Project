@@ -49,7 +49,7 @@ const ShopContextProvider = ({ children }) => {
 
     useEffect(() => {
        getTotalCartItems();
-    }, [])
+    }, [getTotalCartItems])
     
     // ✅ Total cart count
     const getTotalCartItems = async () => {
@@ -66,7 +66,7 @@ const ShopContextProvider = ({ children }) => {
     };
     const contextValue = {
         all_product: all_product || [],
-        qut,removefromcart,cartdata,setCartdata,qut,
+        qut,removefromcart,cartdata,setCartdata,
         addtocart,Backend_Url,
         getTotalCartItems,
     };

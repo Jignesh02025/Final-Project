@@ -7,7 +7,7 @@ import { useAuth } from '../../Context/Authuser';
 import { useNavigate } from "react-router-dom";
 
 function ProductDisplay({ Product }) {
-  const [user, setUser] = useAuth();
+  const [user] = useAuth();
   const { addtocart } = useContext(ShopContext);
   const navigate = useNavigate();
 

@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react'
+import React, { useContext } from 'react'
 import './Css/LoginSingup.css'
 import { Link, Navigate, useNavigate } from 'react-router-dom'
 import axios from 'axios'

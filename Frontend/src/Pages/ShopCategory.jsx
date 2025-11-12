@@ -19,7 +19,7 @@ function ShopCategory(props) {
       }
     }
     getdata();
-  }, [])
+  }, [Backend_Url])
   
   return (
     <div className='shop-category'>

@@ -18,7 +18,7 @@ const Popular = () => {
       }
     }
     getdata()
-  }, [])
+  }, [Backend_Url])
 
   const next = () => {
     setCurrent((prev) => (prev + 1) % Data.length)
